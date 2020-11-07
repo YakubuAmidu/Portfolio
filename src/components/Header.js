@@ -19,7 +19,7 @@ class Header extends Component {
             </Nav.Link>
             <Nav.Link href="#home">
               <Link to="/ProductScreen" className="Link Link_header">
-                Product
+                Music
               </Link>
             </Nav.Link>
             <Nav.Link href="#home">

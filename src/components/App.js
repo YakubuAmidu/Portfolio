@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import { Button } from "react-bootstrap";
 import Header from "./Header";
 import profile from "../assets/profile.png";
+import Projects from "./Projects";
 import "./App.css";
 import Title from "./Title";
 
@@ -29,13 +31,23 @@ class App extends Component {
               Besides coding, I also love to work out and live a healthy
               lifstyle.
             </p>
-            <button onClick={this.toggleDisplayBio}>Show less</button>
+            <Button variant="outline-dark" onClick={this.toggleDisplayBio}>
+              Show less
+            </Button>
           </div>
         ) : (
           <div>
-            <button onClick={this.toggleDisplayBio}>Read more</button>
+            <Button variant="outline-dark" onClick={this.toggleDisplayBio}>
+              Read more
+            </Button>
+            <br />
+            <br />
+            <br />
           </div>
         )}
+        <hr />
+        <br />
+        <Projects />
       </div>
     );
   }
