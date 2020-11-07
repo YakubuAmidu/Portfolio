@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Button } from "react-bootstrap";
 import Projects from "./Projects";
 import SocialProfiles from "./SocialProfiles";
 import Title from "./Title";
@@ -27,11 +28,15 @@ class App extends Component {
               Besides coding, I also love to work out and live a healthy
               lifstyle.
             </p>
-            <button onClick={this.toggleDisplayBio}>Show less</button>
+            <Button variant="outline-dark" onClick={this.toggleDisplayBio}>
+              Show less
+            </Button>
           </div>
         ) : (
           <div>
-            <button onClick={this.toggleDisplayBio}>Read more</button>
+            <Button variant="outline-dark" onClick={this.toggleDisplayBio}>
+              Read more
+            </Button>
           </div>
         )}
         <hr />
