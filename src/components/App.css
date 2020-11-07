@@ -1,3 +1,12 @@
+body {
+  text-align: center;
+}
+
+.profile {
+  width: 100px;
+  height: 130px;
+}
+
 .title-fade-in {
   opacity: 100;
   animation-name: fade-in;
