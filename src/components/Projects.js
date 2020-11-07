@@ -5,10 +5,9 @@ const Project = (props) => {
   const { title, image, link, description } = props.project;
 
   return (
-    <div style={{ display: "inline-block", width: 250, margin: 10 }}>
-      <p>{title}</p>
-
-      <img src={image} alt="project" style={{ width: 200, height: 200 }} />
+    <div style={{ display: "inline-block", width: 300, margin: 10 }}>
+      <h3>{title}</h3>
+      <img src={image} alt="project" style={{ width: 250, height: 250 }} />
       <p>{description}</p>
       <a href={link}>{link}</a>
     </div>
@@ -18,7 +17,6 @@ const Project = (props) => {
 const Projects = () => (
   <div>
     <h2>Hightlighted Project</h2>
-    <br />
     <div>
       {PROJECTS.map((PROJECT) => (
         <Project key={PROJECT.id} project={PROJECT} />

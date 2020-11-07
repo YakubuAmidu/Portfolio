@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import { Button } from "react-bootstrap";
-import Header from "./Header";
-import profile from "../assets/profile.png";
 import Projects from "./Projects";
-import "./App.css";
+import SocialProfiles from "./SocialProfiles";
 import Title from "./Title";
+import profile from "../assets/profile.png";
 
 class App extends Component {
   state = { displayBio: false };
@@ -16,8 +14,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header />
-        <br />
         <img src={profile} alt="profile" className="profile" />
         <h1>Hello!</h1>
         <p>My name is Yakubu.</p>
@@ -31,23 +27,17 @@ class App extends Component {
               Besides coding, I also love to work out and live a healthy
               lifstyle.
             </p>
-            <Button variant="outline-dark" onClick={this.toggleDisplayBio}>
-              Show less
-            </Button>
+            <button onClick={this.toggleDisplayBio}>Show less</button>
           </div>
         ) : (
           <div>
-            <Button variant="outline-dark" onClick={this.toggleDisplayBio}>
-              Read more
-            </Button>
-            <br />
-            <br />
-            <br />
+            <button onClick={this.toggleDisplayBio}>Read more</button>
           </div>
         )}
         <hr />
-        <br />
         <Projects />
+        <hr />
+        <SocialProfiles />
       </div>
     );
   }
