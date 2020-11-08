@@ -39,7 +39,7 @@ class Skills extends Component {
           </Col>
           <Col sm={3}>
             <div className="Skills_logo">
-              <i class="fab fa-js"></i> CSS GRID
+              <i class="fas fa-file-code"></i> CSS GRID
             </div>
           </Col>
           <Col sm={3}>
@@ -49,12 +49,12 @@ class Skills extends Component {
           </Col>
           <Col sm={3}>
             <div className="Skills_logo">
-              <i class="fab fa-js"></i> Animations
+              <i class="fas fa-file-code"></i> Media query
             </div>
           </Col>
           <Col sm={3}>
             <div className="Skills_logo">
-              <i class="fab fa-js"></i> Animations
+              <i class="fab fa-sass"></i> Sass
             </div>
           </Col>
           <Col sm={3}>
