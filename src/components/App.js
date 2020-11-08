@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button } from "react-bootstrap";
+import { Button, Col, Row } from "react-bootstrap";
 import Projects from "./Projects";
 import SocialProfiles from "./SocialProfiles";
 import Title from "./Title";
@@ -41,6 +41,42 @@ class App extends Component {
         )}
         <hr />
         <Projects />
+        <hr />
+        <Row>
+          <Col md={4}>
+            <div>
+              <i class="fas fa-laptop-code"></i>
+              <p>Write something here</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis
+              </p>
+            </div>
+          </Col>
+          <Col md={4}>
+            <div>
+              <i class="fas fa-laptop-code"></i>
+              <p>Write something here</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis
+              </p>
+            </div>
+          </Col>
+          <Col md={4}>
+            <div>
+              <i class="fas fa-laptop-code"></i>
+              <p>Write something here</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis
+              </p>
+            </div>
+          </Col>
+        </Row>
         <hr />
         <SocialProfiles />
       </div>
