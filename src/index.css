@@ -62,7 +62,7 @@ h5 {
 
 .Skill_section {
   margin: 0 auto;
-  max-width: 700px;
+  /* max-width: 700px; */
   padding-bottom: 20px;
 }
 
@@ -71,7 +71,7 @@ h5 {
   padding-top: 5px;
   padding-bottom: 5px;
   margin-bottom: 10px;
-  width: 150px;
+  max-width: 100%;
   background-color: #ddd;
   color: #000;
 }
