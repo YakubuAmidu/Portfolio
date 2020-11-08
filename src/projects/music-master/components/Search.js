@@ -24,8 +24,11 @@ class Search extends Component {
           onKeyPress={this.handleKeyPress}
           onChange={this.updateArtistQuery}
           placeholder="Search for an artist"
+          id="inputGroup-sizing-default"
         />
-        <button onClick={this.searchArtist}>Search</button>
+        <button variant="dark" onClick={this.searchArtist}>
+          Search
+        </button>
       </div>
     );
   }

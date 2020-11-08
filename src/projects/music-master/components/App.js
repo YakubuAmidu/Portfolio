@@ -33,7 +33,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h2>Music Professor</h2>
+        <h2>Music</h2>
         <Search searchArtist={this.searchArtist} />
         <Artist artist={this.state.artist} />
         <Tracks tracks={this.state.tracks} />

@@ -12,13 +12,13 @@ const Header = ({ children }) => {
     <div>
       <div>
         <h3 style={style}>
-          <Link to="/">Home</Link>
+          <Link to="/">HOME</Link>
         </h3>
         <h3 style={style}>
-          <Link to="/jokes">Jokes</Link>
+          <Link to="/jokes">JOKES</Link>
         </h3>
         <h3 style={style}>
-          <Link to="/music-master">Music-Master</Link>
+          <Link to="/music-master">MUSIC</Link>
         </h3>
       </div>
       {children}

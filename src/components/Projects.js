@@ -6,8 +6,10 @@ const Project = (props) => {
 
   return (
     <div style={{ display: "inline-block", width: 300, margin: 10 }}>
-      <h3>{title}</h3>
+      <p>{title}</p>
       <img src={image} alt="project" style={{ width: 250, height: 250 }} />
+      <br />
+      <br />
       <p>{description}</p>
       <a href={link}>{link}</a>
     </div>
