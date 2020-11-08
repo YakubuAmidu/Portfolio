@@ -59,3 +59,9 @@ h5 {
     opacity: 0;
   }
 }
+
+.Responsibilities {
+  margin: 0 auto;
+  text-align: justify;
+  max-width: 300px;
+}
