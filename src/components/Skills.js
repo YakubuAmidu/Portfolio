@@ -4,8 +4,8 @@ import { Col, Row } from "react-bootstrap";
 class Skills extends Component {
   render() {
     return (
-      <div>
-        <h1>Skills</h1>
+      <div className="Skill_section">
+        <h1>SKILLS</h1>
         <Row>
           <Col sm={3}>
             <div className="Skills_logo">
