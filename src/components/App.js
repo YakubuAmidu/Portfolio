@@ -15,7 +15,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="App">
         <img src={profile} alt="profile" className="profile" />
         <h1>Hello!</h1>
         <p>My name is Yakubu.</p>
