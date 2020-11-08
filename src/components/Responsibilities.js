@@ -7,8 +7,8 @@ class Responsibilities extends Component {
       <Row>
         <Col md={12} className="Responsibilities">
           <i class="fas fa-laptop-code"></i>
-          <p>Write something here</p>
-          <p>
+          <p className="Responsibilities_header">Write something here</p>
+          <p className="Responsibilities_paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis
@@ -16,8 +16,8 @@ class Responsibilities extends Component {
         </Col>
         <Col md={12} className="Responsibilities">
           <i class="fas fa-laptop-code"></i>
-          <p>Write something here</p>
-          <p>
+          <p className="Responsibilities_header">Write something here</p>
+          <p className="Responsibilities_paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis
@@ -25,8 +25,17 @@ class Responsibilities extends Component {
         </Col>
         <Col md={12} className="Responsibilities">
           <i class="fas fa-laptop-code"></i>
-          <p>Write something here</p>
-          <p>
+          <p className="Responsibilities_header">Write something here</p>
+          <p className="Responsibilities_paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis
+          </p>
+        </Col>
+        <Col md={12} className="Responsibilities">
+          <i class="fas fa-laptop-code"></i>
+          <p className="Responsibilities_header">Write something here</p>
+          <p className="Responsibilities_paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis
