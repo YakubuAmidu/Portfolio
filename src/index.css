@@ -59,18 +59,3 @@ h5 {
     opacity: 0;
   }
 }
-
-.Responsibilities {
-  margin: 0 auto;
-  text-align: center;
-  max-width: 300px;
-}
-
-.Responsibilities_header {
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.Responsibilities_paragraph {
-  text-align: justify;
-}

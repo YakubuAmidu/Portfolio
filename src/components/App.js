@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Button } from "react-bootstrap";
 import Projects from "./Projects";
-import Responsibilities from "./Responsibilities";
+import Skills from "./Skills";
 import SocialProfiles from "./SocialProfiles";
 import Title from "./Title";
 import profile from "../assets/profile.png";
@@ -43,7 +43,7 @@ class App extends Component {
         <hr />
         <Projects />
         <hr />
-        <Responsibilities />
+        <Skills />
         <hr />
         <SocialProfiles />
       </div>
