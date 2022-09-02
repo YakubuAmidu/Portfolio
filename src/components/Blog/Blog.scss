@@ -1,0 +1,42 @@
+$color-light-grey: #f7f7f7;
+$color-medium-grey: #a9a9a9;
+$color-dark-grey: #696969;
+$color-black: #000;
+
+$color-light-gold: rgba(240, 230, 140, 0.699);
+$color-medium-gold: hsla(51, 100%, 50%, 0.808);
+$color-dark-gold: hsla(43, 74%, 49%, 0.925);
+
+.blog {
+  height: 100%;
+  padding: 4rem;
+  background-color: $color-light-grey;
+  text-align: center;
+
+  &__main {
+    display: inline-block;
+    margin-top: 4rem;
+  }
+
+  &__images {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 3px solid $color-dark-gold;
+  }
+
+  &__header {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Bebas Neue";
+    font-weight: bold;
+  }
+
+  &__para {
+    text-align: justify;
+    color: $color-dark-grey;
+    word-spacing: -3px;
+    font-size: 20px;
+  }
+}

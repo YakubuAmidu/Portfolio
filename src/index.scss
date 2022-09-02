@@ -1,0 +1,79 @@
+$color-light-grey: rgba(247, 247, 247, 0.808);
+$color-medium-grey: rgba(168, 168, 168, 0.808);
+$color-dark-grey: rgba(105, 105, 105, 0.801);
+
+$color-light-gold: rgba(185, 167, 4, 0.603);
+$color-medium-gold: rgba(163, 139, 5, 0.81);
+$color-dark-gold: rgba(110, 81, 3, 0.941);
+
+$color-white: #fff;
+$color-black: #000;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-family: RobotoCondensed;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image: linear-gradient(
+    to right,
+    $color-dark-gold,
+    $color-medium-gold,
+    $color-light-gold
+  );
+  background-clip: text;
+  letter-spacing: 2px;
+  color: transparent;
+  transition: all 0.2s;
+}
+
+h2 {
+  font-size: 55px;
+}
+
+h1:hover {
+  transform: skewY(2deg) skewX(15deg) scale(1.1);
+  text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+}
+.title-fade-out {
+  opacity: 0;
+  animation-name: fade-out;
+  animation-duration: 2s;
+}
+
+.title-fade-in {
+  opacity: 100;
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 100;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 100;
+  }
+}

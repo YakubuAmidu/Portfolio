@@ -1,0 +1,75 @@
+$color-light-grey: #f7f7f7;
+$color-medium-grey: #999;
+$color-dark-grey: #333;
+
+$color-light-gold: rgba(173, 163, 66, 0.938);
+$color-medium-gold: rgba(255, 217, 0, 0.932);
+$color-dark-gold: rgba(99, 72, 5, 0.904);
+
+$color-light-green: rgba(1, 73, 25, 0.612);
+$color-medium-green: rgba(12, 71, 1, 0.701);
+$color-dark-green: rgba(1, 61, 40, 0.911);
+
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+$color-white: #fff;
+$color-black: #000;
+
+.skills {
+  text-align: center;
+  height: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-image: linear-gradient(
+      to bottom,
+      $color-dark-green,
+      $color-medium-green,
+      $color-light-green
+    ),
+    url(../../assets/javascript.png);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+
+  &__highlight {
+    margin-bottom: 30px;
+  }
+
+  &__main {
+    margin: 5%;
+  }
+
+  &__para {
+    color: $color-white;
+  }
+
+  &__icon {
+    text-align: left;
+  }
+
+  &__para {
+    text-align: justify;
+    letter-spacing: -1px;
+  }
+}
+
+.fab {
+  color: $color-dark-grey;
+  background: $color-white;
+  border-radius: 5px;
+  padding: 5px;
+}

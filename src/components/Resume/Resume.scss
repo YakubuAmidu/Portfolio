@@ -1,0 +1,305 @@
+$color-light-grey: rgb(243, 241, 241);
+$color-medium-grey: rgba(240, 76, 76, 0.507);
+$color-dark-grey: #333;
+$color-black: #000;
+
+$color-light-green: rgba(32, 182, 82, 0.932);
+$color-medium-green: rgba(25, 116, 9, 0.911);
+$color-dark-green: rgba(1, 34, 23, 0.911);
+
+$color-light-gold: rgba(185, 167, 4, 0.603);
+$color-medium-gold: rgba(163, 139, 5, 0.81);
+$color-dark-gold: rgba(110, 81, 3, 0.941);
+
+$color-white: #fff;
+$color-black: #000;
+
+$color-light-white: rgb(240, 240, 240);
+
+$color-light-grey: rgba(226, 224, 224, 0.938);
+$color-medium-grey: #777;
+
+.resume {
+  height: 100%;
+  padding: 5% 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background-color: $color-light-grey;
+
+  &__header {
+    margin-bottom: 5%;
+  }
+
+  &__main {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: $color-light-grey;
+    // margin-top: 5%;
+    padding: 15px 15px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000,
+      5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  }
+
+  &__secondary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+      to bottom,
+      $color-dark-gold,
+      $color-medium-gold,
+      $color-light-gold
+    );
+    padding: 40px 0;
+  }
+
+  &__name--left {
+    color: $color-white;
+    font-weight: bold;
+  }
+
+  &__image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  &__profile2 {
+    width: 150px;
+    height: 150px;
+    border: 8px solid white;
+    border-radius: 20px;
+    margin-bottom: 15px;
+  }
+
+  &__software {
+    font-size: 20px;
+  }
+
+  &__name--right {
+    color: $color-white;
+    font-weight: bold;
+  }
+
+  &__summary {
+    margin-top: 40px;
+  }
+
+  &__title {
+    color: $color-dark-grey;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  &__para {
+    color: $color-dark-grey;
+    text-align: justify;
+  }
+}
+
+.work {
+  padding-top: 30px;
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  &__reactnative {
+    text-align: left;
+    font-weight: bold;
+  }
+
+  &__reactjs {
+    text-align: left;
+    font-weight: bold;
+  }
+
+  &__company {
+    text-align: left;
+  }
+
+  &__date {
+    text-align: left;
+  }
+
+  &__para--1 {
+    margin-bottom: 40px;
+    text-align: justify;
+    margin-top: 40px;
+  }
+
+  &__para--2 {
+    color: $color-dark-grey;
+    font-family: "Barlow Condensed", sans-serif;
+  }
+
+  &__para--3 {
+    color: $color-dark-grey;
+    font-family: "Barlow Condensed", sans-serif;
+  }
+}
+
+.education {
+  padding-top: 30px;
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  &__main {
+    margin-bottom: 10px;
+  }
+}
+
+.mainskills {
+  padding: 15px;
+
+  &__skills {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: $color-dark-grey;
+  }
+
+  &__container {
+    margin-bottom: 15px;
+  }
+
+  &__header {
+    font-size: 20px;
+    margin-bottom: 2px;
+    text-align: left;
+    color: $color-dark-grey;
+  }
+}
+
+.mainskills {
+  &__html {
+    width: 100%;
+    background-color: $color-dark-grey;
+    border-radius: 10px;
+  }
+}
+
+.mainskills-1 {
+  font-size: 20px;
+  text-align: right;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  color: white;
+}
+
+.reactjs {
+  width: 85%;
+  border-radius: 10px;
+  background-color: $color-light-green;
+}
+
+.reactnative {
+  width: 80%;
+  border-radius: 10px;
+  background-color: $color-light-green;
+}
+
+.sass {
+  width: 85%;
+  border-radius: 10px;
+  background-color: $color-light-green;
+}
+
+.sass {
+  width: 80%;
+  border-radius: 10px;
+  background-color: $color-light-green;
+}
+
+.html {
+  width: 85%;
+  border-radius: 10px;
+  background-color: $color-light-green;
+}
+
+.bootstrap {
+  width: 80%;
+  border-radius: 10px;
+  background-color: $color-light-green;
+}
+
+.reactnative {
+  width: 80%;
+  border-radius: 10px;
+  background-color: $color-light-green;
+}
+
+.html {
+  width: 85%;
+  border-radius: 10px;
+  background-color: $color-light-green;
+}
+
+.bootstrap {
+  width: 80%;
+  border-radius: 10px;
+  background-color: $color-light-green;
+}
+
+.flexbox {
+  width: 80%;
+  border-radius: 10px;
+  background-color: $color-light-green;
+}
+
+.css {
+  width: 80%;
+  border-radius: 10px;
+  background-color: $color-light-green;
+}
+
+.css {
+  width: 80%;
+  border-radius: 10px;
+  background-color: $color-light-green;
+}
+
+.flexbox {
+  width: 80%;
+  border-radius: 10px;
+  background-color: $color-light-green;
+}
+
+.grid {
+  width: 80%;
+  border-radius: 10px;
+  background-color: $color-light-green;
+}
+
+.socialicons {
+  background-image: linear-gradient(
+    to bottom,
+    $color-dark-gold,
+    $color-medium-gold,
+    $color-light-gold
+  );
+
+  &__main {
+    padding: 20px;
+  }
+
+  span {
+    margin: 30px;
+    color: $color-white;
+  }
+}

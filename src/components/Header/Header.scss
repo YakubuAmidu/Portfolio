@@ -1,0 +1,106 @@
+$color-light-grey: rgb(243, 241, 241);
+$color-medium-grey: rgba(168, 168, 168, 0.507);
+$color-dark-grey: rgba(214, 214, 214, 0.603);
+
+$color-light-gold: rgba(185, 167, 4, 0.603);
+$color-medium-gold: rgba(163, 139, 5, 0.81);
+$color-dark-gold: rgba(110, 81, 3, 0.941);
+
+$color-white: #fff;
+$color-black: #000;
+
+$color-light-white: rgb(240, 240, 240);
+
+.header {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  background-image: linear-gradient(
+      to bottom,
+      $color-dark-gold,
+      $color-medium-gold,
+      $color-light-gold
+    ),
+    url(../../assets/react.png);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+
+  &__profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    border: 10px solid $color-white;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    color: $color-white;
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.btn::link,
+.btn::visited {
+  padding: 5px 5px;
+  color: $color-dark-grey;
+  display: inline-block;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.404);
+}
+
+.btn:active {
+  transform: transformY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.432);
+}
+
+.btn-white {
+  background-color: $color-white;
+  color: #777;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn-white::after {
+  background-color: $color-white;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn-animated {
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
+}
+

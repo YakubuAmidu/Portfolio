@@ -1,0 +1,47 @@
+$color-light-grey: #f7f7f7;
+$color-medium-grey: rgba(169, 169, 169, 0.507);
+$color-dark-grey: rgba(105, 105, 105, 0.493);
+
+$color-light-gold: rgba(173, 163, 66, 0.938);
+$color-medium-gold: rgba(255, 217, 0, 0.932);
+$color-dark-gold: rgba(99, 72, 5, 0.904);
+
+$color-white: rgba(238, 231, 231, 0.616);
+$color-black: #000;
+
+.project {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 5%;
+
+  &__header {
+    margin-bottom: 5%;
+  }
+}
+
+.gallery {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid $color-dark-grey;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+
+  &__name {
+    text-transform: uppercase;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    border: 1px solid $color-dark-grey;
+  }
+
+  &__button {
+    width: 100%;
+    color: $color-white;
+    font-weight: bold;
+  }
+}
